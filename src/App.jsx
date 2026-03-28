@@ -4,7 +4,7 @@ import Home from "./home";
 import Products from "./products";
 import Cart from "./cart";
 import Checkout from "./checkout";
-import './app.css'; // Make sure this is imported
+import './App.css'; // Make sure this is imported
 
 export default function App() {
   const [cart, setCart] = useState([]);
