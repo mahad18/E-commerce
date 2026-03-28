@@ -1,12 +1,12 @@
 import { useState } from "react";
 import { Routes, Route, Link, useNavigate } from "react-router-dom";
 
-import Home from "./Home";
-import Products from "./Products";
-import Cart from "./Cart";
-import Checkout from "./Checkout";
+import Home from "./home";
+import Products from "./products";
+import Cart from "./cart";
+import Checkout from "./checkout";
 
-import "./App.css";
+import "./app.css";
 
 export default function App() {
   const [cart, setCart] = useState([]);
